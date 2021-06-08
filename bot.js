@@ -217,6 +217,10 @@ client.on("error", function(err) {
         log((chalk.red("Login Denied - SteamGuard is required")));        
         shutdown();
     }
+	else {
+	        log((chalk.red(err)));        
+        shutdown();
+	}
 });
 
 
