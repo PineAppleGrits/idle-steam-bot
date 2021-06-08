@@ -1,0 +1,11 @@
+---
+application:
+  name: "idle-steam-bot"
+  project: "superduperidlingbot"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-idle-steam-bot"
+  routes:
+  - application_name: "idle-steam-bot"
+    paths:
+    - "/*"
