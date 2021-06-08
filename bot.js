@@ -26,9 +26,9 @@ console.log(chalk.black.bold.bgWhite('    Steam Hour [Bot]     '));
 console.log(chalk.gray.underline(' v1.3.8'));
 console.log(chalk.black.bold.bgWhite('      Steam Login        '));
 
-var username = "ssomi3"
-var password = "GRITS2019"
-var mobileCode = "5W5D8";
+var username = process.env.username
+var password = process.env.password;
+var mobileCode = process.env.code;
 var wstream;
 var dtiming = new Date();
 var tstamp = Math.floor(Date.now() / 1000);
