@@ -205,6 +205,7 @@ client.on("error", function(err) {
     if (err.eresult == Steam.EResult.InvalidPassword)
     {
         log((chalk.red("Login Denied - User or Password Wrong."))); 
+	            log((chalk.red(err)));        
         shutdown();
     }
     else if (err.eresult == Steam.EResult.AlreadyLoggedInElsewhere)
