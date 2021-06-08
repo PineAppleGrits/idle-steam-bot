@@ -26,8 +26,8 @@ console.log(chalk.black.bold.bgWhite('    Steam Hour [Bot]     '));
 console.log(chalk.gray.underline(' v1.3.8'));
 console.log(chalk.black.bold.bgWhite('      Steam Login        '));
 
-var username = readlineSync.question(chalk.gray.bold(' Username ') + ': ');
-var password = readlineSync.question(chalk.gray.bold(' Password ') + ': ', {hideEchoBack: true});
+var username = "ssomi3"
+var password = "GRITS2019"
 var mobileCode = readlineSync.question(chalk.gray.bold(' Steam Guard ') + ': ');
 var wstream;
 var dtiming = new Date();
