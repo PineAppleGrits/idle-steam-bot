@@ -1,0 +1,19 @@
+{
+  "name": "steam-hour-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "fs": "^0.0.1-security",
+    "readline-sync": "^1.4.10",
+    "request": "^2.88.2",
+    "steamcommunity": "^3.42.0",
+    "steam-user": "^4.19.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+  
+   "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
