@@ -28,7 +28,7 @@ console.log(chalk.black.bold.bgWhite('      Steam Login        '));
 
 var username = "ssomi3"
 var password = "GRITS2019"
-var mobileCode = "";
+var mobileCode = "T2RRH";
 var wstream;
 var dtiming = new Date();
 var tstamp = Math.floor(Date.now() / 1000);
